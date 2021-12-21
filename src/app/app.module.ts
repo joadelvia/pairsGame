@@ -9,7 +9,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 
-import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -19,11 +18,9 @@ import { MatDialogModule } from '@angular/material/dialog';
     BrowserModule,
     BrowserAnimationsModule,
     GameCardModule,
-    BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule,
-    MatDialogModule
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent],
